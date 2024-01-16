@@ -32,9 +32,9 @@ peft 0.6.0 （如果使用peft加载模型）
     uvicorn api.api_service:app --host 0.0.0.0 --port 3101
     ```
     
-3. 接口文档可查看 https://0.0.0.0:3101/redoc
+3. 接口文档可查看 https://{your_ip}:3101/redoc
 4. 请求服务
-    - api：http://192.168.11.249:3101/v1/chat/completions
+    - api：http://{your_ip}:3101/v1/chat/completions
     - 请求方式：POST
     
     示例：
