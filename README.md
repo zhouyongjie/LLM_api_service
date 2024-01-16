@@ -45,7 +45,7 @@ peft 0.6.0 （如果使用peft加载模型）
           "messages": [
             {"role": "user", "content": "你好"}
             ],
-          "stream": false,
+          "stream": true,
           "max_tokens": 512,
           "temperature": 0.1
        }
