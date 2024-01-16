@@ -41,12 +41,12 @@ peft 0.6.0 （如果使用peft加载模型）
     
     ```json
     {
-      model="THUDM/ChatGLM3-6b",
-      messages=[
+      model: "THUDM/ChatGLM3-6b",
+      messages: [
         {"role": "system", "content": "You are a helpful assistant."},
         {"role": "user", "content": "Hello!"}
       ],
-      stream=True
+      stream: True
       }
     ```
     
