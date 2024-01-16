@@ -18,7 +18,7 @@ torch 2.0.0+cu118
 
 transformers 4.33.2
 
-peft 0.6.0 （如何使用peft加载模型）
+peft 0.6.0 （如果使用peft加载模型）
 
 ### 二、使用说明
 
