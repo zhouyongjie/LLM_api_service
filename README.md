@@ -40,14 +40,15 @@ peft 0.6.0 （如果使用peft加载模型）
     示例：
     
     ```json
-    {
-      model: "THUDM/ChatGLM3-6b",
-      messages: [
-        {"role": "system", "content": "You are a helpful assistant."},
-        {"role": "user", "content": "Hello!"}
-      ],
-      stream: True
-      }
+       {
+          "model": "THUDM/chatglm3-6b",
+          "messages": [
+            {"role": "user", "content": "你好"}
+            ],
+          "stream": false,
+          "max_tokens": 512,
+          "temperature": 0.1
+       }
     ```
     
 
