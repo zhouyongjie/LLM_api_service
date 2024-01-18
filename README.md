@@ -29,7 +29,7 @@ peft 0.6.0 （如果使用peft加载模型）
 2. 启动服务
     
     ```jsx
-    uvicorn api.api_service:app --host 0.0.0.0 --port 3101
+    uvicorn api.api_service:app --host 0.0.0.0 --port 4100
     ```
     
 3. 接口文档可查看 https://`your_ip`:3101/redoc

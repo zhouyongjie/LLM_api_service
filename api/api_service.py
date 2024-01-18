@@ -1,6 +1,6 @@
 import os
 
-os.environ['CUDA_VISIBLE_DEVICES'] = '0'
+os.environ['CUDA_VISIBLE_DEVICES'] = '1'
 import sys
 
 current_dir = os.path.dirname(os.path.abspath(__file__))
@@ -44,7 +44,7 @@ app.add_middleware(
 
 logger.info("Starting chat-api server...")
 model, tokenizer, base_model_name = None, None, None
-root_model_hub_path = "/app/ai_platform/model_hub/"
+root_model_hub_path = "/app/rope_hub/model_hub/"
 
 
 def switch_model(request: ChatCompletionRequest):
@@ -233,4 +233,4 @@ if __name__ == "__main__":
     #                                                               torch_dtype=torch.bfloat16).cuda()
     # base_model_name: str = model_path.split("/")[-1]
     model, tokenizer, base_model_name = None, None, None
-    uvicorn.run(app, host='0.0.0.0', port=3101)
+    uvicorn.run(app, host='0.0.0.0', port=4100)
